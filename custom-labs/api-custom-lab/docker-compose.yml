@@ -1,0 +1,22 @@
+services:
+  main-app:
+    build: ./main-app
+    ports:
+      - "5000:5000"
+    environment:
+      - PARTNER_API_BASE=http://partner-api:5000
+    depends_on:
+      - partner-api
+      - internal-service
+
+  partner-api:
+    build: ./partner-api
+    ports:
+      - "5001:5000"
+
+  internal-service:
+    build: ./internal-service
+    # Deliberately no `ports:` mapping - reachable only on the compose network,
+    # not from the host. That's what makes the unsafe-consumption chain real.
+    expose:
+      - "5000"
