@@ -1,9 +1,10 @@
 # Additional Test Labs
 
-Seven URLs supplied 2026-09-08. All verified live against GitHub (stars, archive status, README)
+Supplementary REST targets, all verified live against GitHub (stars, archive status, README)
 before being slotted in - one turned out to be archived with a maintained successor, and one
-turns out to claim coverage of the exact OWASP category (API10) this course had to build a
-custom lab for. Full disposition below; see `COVERAGE-MATRIX.md` for where each lands in the
+claims coverage of the exact OWASP category (API10) this course had to build a custom lab for.
+(A GraphQL-only lab that was also reviewed belongs to the later GraphQL phase, not this REST
+track, so it's not listed here.) Full disposition below; see `COVERAGE-MATRIX.md` for where each lands in the
 curriculum and `SETUP.md` for bring-up commands.
 
 ## Disposition
@@ -15,7 +16,6 @@ curriculum and `SETUP.md` for bring-up commands.
 | `theowni/Damn-Vulnerable-RESTaurant-API-Game` | 935 stars, actively maintained | **Added** - Phase 02 supplementary, promoted for its single-path privilege-escalation chain |
 | `payatu/Tiredful-API` | 584 stars, older/manual setup | **Added** - Phase 02 minor supplementary (has a dedicated "Throttling" category) |
 | `vulnerable-apps/vulnerable-rest-api` | 0 stars, low traction | **Added with caveat** - claims API10:2023 coverage (the category we built a custom lab for), unverified depth on our end |
-| `vulnerable-apps/vuln-graphql-api` | 0 stars, fork of a 62-star original | **Added, low priority** - basic private-post scenario, mostly redundant with DVGA + PortSwigger already |
 | `snoopysecurity/dvws` | **Archived** - maintainer's own README says "out of date, please use dvws-node" | **Substituted** with `snoopysecurity/dvws-node` (519 stars, updated this week) |
 
 ## Notes worth flagging back

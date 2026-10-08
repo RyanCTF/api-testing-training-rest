@@ -45,7 +45,7 @@ places to start testing - deprecated and admin-only paths are chronically under-
   in the full course.
 - **GraphQL SDL**: query/mutation/subscription root types define everything reachable. If
   introspection is disabled, field-suggestion/error-based recovery can often rebuild most of the
-  schema anyway - see `graphql.md` section 2-3 for the bypass list.
+  schema anyway (the GraphQL phase of the full course covers the field-suggestion/error-based recovery bypasses).
 - **protobuf `.proto`**: `service` blocks define RPCs, `message` blocks define types. If server
   reflection is enabled, `grpcurl -plaintext <host> list` gets you the whole surface without the
   `.proto` file at all - if it's not, you need the file from somewhere (app binary, leaked repo,
@@ -71,7 +71,7 @@ Real engagements rarely hand you a clean spec. Sources, roughly in order of yiel
    you'll use it in Phase 02).
 3. Wayback Machine / historical JS for now-undocumented but still-live old endpoints.
 4. Common spec-file paths (`/swagger.json`, `/openapi.yaml`, `/graphql` with introspection,
-   `/api-docs`) - full list in `rest_api.md` section 1.
+   `/api-docs`) - full list in `reference/rest-api.md` section 1.
 5. Brute force with `ffuf`/`kiterunner` against a wordlist derived from what you already know
    about the API's naming conventions (versioned prefixes, resource-noun patterns) - generic
    wordlists are low-yield here, a tailored one from step 1-2 is much better.

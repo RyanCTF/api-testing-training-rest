@@ -70,7 +70,7 @@ Rough pacing is 1-2 weeks each part-time, but there's no clock - this is self-pa
 If you get stuck on something a workshop's own hints don't resolve:
 1. `grep -i "<keyword>" reference/*.md` - the answer to "how do I bypass X" is very likely
    already written down.
-2. For a public lab (crAPI/vAPI/VAmPI/DVGA/grpc-goat/PortSwigger), the project's own official
+2. For a public lab (crAPI/vAPI/VAmPI), the project's own official
    walkthrough/Solution toggle is fair game to use after a real attempt - these aren't secret,
    and using them is a normal part of working through Academy-style labs.
 3. Only for `custom-labs/api-custom-lab` specifically: there's no public writeup anywhere for

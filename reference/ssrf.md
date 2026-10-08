@@ -21,7 +21,7 @@ Proxy/gateway features
 ```
 In an API-specific context: any request body field that's a URL rather than a literal value
 (`webhook_url`, `avatar_url`, `import_url`, `callback`) is this same primitive - see
-`reference/rest-api.md` section 12 and `reference/graphql.md` section 6 for the API-shaped versions, and
+`reference/rest-api.md` section 12 for the API-shaped version, and
 `custom-labs/api-custom-lab`'s unsafe-consumption section for a worked example where the
 URL itself is sourced from a "trusted" upstream API response rather than direct user input.
 
@@ -266,7 +266,7 @@ worth testing even when the feature looks purely cosmetic:
 ```
 Some SVG-rendering pipelines separately have their own XXE vulnerability in the XML parser
 underneath the SVG parser - even if remote-URL loading looks disabled for the "normal" path,
-test the raw XXE angle too (see `reference/soap-wsdl.md`'s XXE section for the technique,
+test the raw XXE angle too (the same classic XML-parser XXE technique,
 applied here to SVG instead of a SOAP body).
 
 ## 10. Operational Quick-Paste Set (Top 20 for Intruder/ffuf)
