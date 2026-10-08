@@ -42,7 +42,7 @@ Import the spec into Bruno (or just read the raw JSON/YAML, your call), then pro
 
 ## Deliverable
 
-`submissions/<your-name>/01-surface-map.md` containing the four sections above for the spec you
+`my-work/01-surface-map.md` containing the four sections above for the spec you
 picked. This is a real artifact you'd actually produce at the start of a real API engagement -
 treat it that way, not as busywork.
 

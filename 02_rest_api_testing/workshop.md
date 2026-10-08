@@ -31,7 +31,7 @@ several of these by design. Keep going until you've covered every feature area.
 
 ## Deliverable
 
-`submissions/<your-name>/02-crapi-findings.md`, one entry per confirmed issue:
+`my-work/02-crapi-findings.md`, one entry per confirmed issue:
 - Endpoint + method
 - OWASP API Top 10 category
 - Repro steps (exact requests, both accounts' tokens where relevant)

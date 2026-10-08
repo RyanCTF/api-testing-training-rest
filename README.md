@@ -45,7 +45,6 @@ authorization logic rather than injection.
 setup/                   tool installs + lab environment bring-up (+ EXTERNAL-LABS.md intake list)
 reference/               self-contained technique docs for the REST track
 custom-labs/             purpose-built vulnerable services for gaps in public tooling
-submissions/<your-name>/ where your workshop writeups and checkpoint deliverables go
 ```
 
 ## Reference material
@@ -55,12 +54,12 @@ rate-limit bypass) live in `reference/` in this repo. Nothing in this track depe
 external repo or system - everything you need is here. (Per-family references for the other
 phases ship with those phases.)
 
-## Submitting work
+## Your work
 
-Work in your own branch: `submissions/<your-name>/`. Commit your workshop writeups and
-checkpoint deliverables there and open a PR against `main` when you finish a phase, or just push
-and ping for review - whichever is lower friction. This is how progress gets tracked; there's no
-separate dashboard.
+Keep your workshop writeups and deliverables in a local `my-work/` folder (make it yourself - it
+is not part of the repo and you don't push it anywhere). There's no submissions branch and
+nothing to commit back here. When you finish a phase, send your writeup to whoever's running the
+course however suits them - that's how progress gets tracked, there's no separate dashboard.
 
 ## Phase index
 

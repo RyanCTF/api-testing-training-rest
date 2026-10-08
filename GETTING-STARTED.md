@@ -22,7 +22,7 @@ cd api-testing-training
 
 ## Step 2 - Read the two orientation documents, in this order
 
-1. `README.md` - what this course is, how phases/workshops/submissions work.
+1. `README.md` - what this course is, how phases, workshops and your writeups work.
 2. `COVERAGE-MATRIX.md` - skim it. You don't need to memorize it, just know it exists so that
    later, when you're wondering "is there a lab for X," you check here first instead of asking.
 
@@ -32,14 +32,14 @@ Follow `setup/SETUP.md` top to bottom for the tooling table, then bring up **onl
 Phase 00 needs (crAPI) - don't bring up every lab in the repo on day one, each phase's own
 `README.md` tells you what to start when you get there.
 
-## Step 4 - Create your submissions branch
+## Step 4 - Make a folder for your work
 
 ```bash
-git checkout -b submissions/<your-name>
+mkdir my-work
 ```
 
-Everything you write - workshop deliverables, notes, the final report - goes under
-`submissions/<your-name>/` on this branch. This is your workspace; nobody else commits here.
+Everything you write - workshop deliverables, notes, the final report - goes in your local
+`my-work/` folder. It's just for you; it isn't part of the repo and you don't push it anywhere.
 
 ## Step 5 - Work Phase 00
 
@@ -55,14 +55,10 @@ same two files, and you always use them the same way:
    for at least an hour.** They're hints, not answers - use them to get unstuck, not as the
    first thing you read.
 5. Write the deliverable the workshop asks for into
-   `submissions/<your-name>/<phase-number>-<topic>.md` (each workshop tells you the exact
-   expected filename and content).
-6. Commit and push:
-   ```bash
-   git add submissions/<your-name>/
-   git commit -m "Phase 00 complete"
-   git push -u origin submissions/<your-name>
-   ```
+   `my-work/<phase-number>-<topic>.md` (each workshop tells you the exact expected filename and
+   content).
+6. Send your writeup to whoever's running the course when you finish the phase - whatever's
+   lowest friction for them. There's nothing to commit or push back to this repo.
 7. Move to the next phase. There's no gate/approval needed between phases - work at your own
    pace, in order (each phase assumes the previous one's skills).
 

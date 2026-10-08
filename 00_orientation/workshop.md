@@ -18,7 +18,7 @@
 
 ## Deliverable
 
-A short note in `submissions/<your-name>/00-orientation.md`:
+A short note in `my-work/00-orientation.md`:
 - crAPI reachable: yes/no
 - Auth token type and where it's carried
 - The OpenAPI spec URL you found
